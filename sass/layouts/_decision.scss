@@ -1,26 +1,42 @@
 .decision{
+
+    /* display: flex; */
+ /*    max-width: 1600px; */
+/*  padding-top: 200px;
+ padding-bottom: 200px; */
+
     background: #C4C4C4;;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: linear-Gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/Img-Hero.jpg);
+
+    background-image: linear-Gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/1X/Header-img-1x.jpg );
     background-repeat: no-repeat; 
     background-position: center;
-    max-width: 1600px;
-    display: flex;
+    
+    
     align-items: center;
     margin: 0 auto;
+
+    width: 480px;
+    height: 400px;
+  padding: 118px 60px;
 }
 .decision__info{
+    /* width: 629px; */
+    /* height: 120px; */
+    /* font-size: 44px;
+    line-height: 1.36; */
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0 auto;
-    width: 629px;
-    height: 120px;
+    
+    
+    font-size: 26px;
+    line-height: 1.61;
+    min-height: 84px;
+    max-width: 360px;
 }
 .backdrop.is-hidden {
     visibility: visible;

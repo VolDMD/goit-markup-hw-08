@@ -25,14 +25,19 @@
     margin: 0 auto;
 }   
 .menu{
+
+    /* display: flex; */ 
+
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--brand-color);
-    display: flex; 
+    
     gap: 50px;
+
+    display: none; 
 }
 
 
@@ -109,9 +114,15 @@
     transition: 250ms var(--timing-function);}
 }  
 .connect{
+
+    /* display: flex; */
+
+
     margin-left: auto;
-    display: flex;
+    
     height: 85px;
+
+    display: none;
 }
 .connect__tel{
     font-family: 'Roboto',sans-serif;
