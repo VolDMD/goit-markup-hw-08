@@ -16,9 +16,16 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
+    margin: 15px;
+
+}
+.clients-top-item{
+    flex-grow: 4;
 }
 .clients-top-img-list{
-    width: 170px;
+    /* width: 170px; */
+    width: 210px;
     height: 92px;
     display: flex;
     align-items: center;
