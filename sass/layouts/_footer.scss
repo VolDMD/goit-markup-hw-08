@@ -1,0 +1,103 @@
+.footer{
+    background: #2F303A;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+}
+.footer-container{
+    display: block;
+    margin-right: 70px;
+}
+.footer-weblogo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.33;    
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.footer-adress {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+    padding-top: 20px;
+    transition: 250ms var(--timing-function);
+    &:hover{
+        color: #2196F3;
+        transition: 250ms var(--timing-function);
+    }
+}
+.footer-mail {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+    transition: 250ms var(--timing-function);
+    &:hover{
+        color: #2196F3;
+        transition: 250ms var(--timing-function)
+    }
+}
+.footer-tel {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 250ms var(--timing-function);
+    &:hover{
+        color: #2196F3;
+        transition: 250ms var(--timing-function);
+    }
+}
+.footer-soc{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.footer-Join{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.footer-soc-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-soc-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 250ms var(--timing-function);
+    &:hover, 
+    &:focus {
+        background-color: #2196F3  ;
+        transition: 250ms var(--timing-function);
+    }
+}
+.footer-soc-icon{
+    fill: #FFFFFF;
+    transition:fill 250ms var(--timing-function);
+}
