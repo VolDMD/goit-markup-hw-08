@@ -1,25 +1,18 @@
-
-@import "./base/reset";
-@import "./base/tools";
-@import "./components/container";
-@import "./base/body";
-@import "./layouts/header";
-@import "./layouts/decision";
-@import "./components/btn";
-@import "./layouts/modal";
-@import "./layouts/benefits";
-@import "./layouts/about";
-@import "./layouts/team";
-@import "./layouts/clients";
-@import "./layouts/footer";
-@import "./components/mailing";
-@import "./layouts/portfolio";
-@import "./layouts/headermenu";
+@import './utils/variables';
+@import './base/base';
+@import "./base/container";
+@import "./utils/mixin";
 
 
-
-
-
-
-
+@import './layout/header';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/activity';
+@import './layout/team';
+@import './layout/customers';
+@import './layout/footer';
+@import './layout/portfolio/portfolio_nav';
+@import './layout/portfolio/portfolio_main';
+@import './layout/modal';
+@import './layout/contacts';
 

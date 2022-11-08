@@ -1,0 +1,79 @@
+.team {
+  background-color: $--background-color-second;
+
+}
+
+.card {
+  display: flex;
+flex-wrap: wrap;
+gap: 30px;
+
+}
+.card__item {
+  @media screen and (min-width:768px) {
+    width: calc((100% - 30px)/2); 
+   }
+   @media screen and (min-width:1200px){
+    width: calc((100% - 90px)/4);  
+  }
+  background-color: $--background-color-main;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+}
+
+
+.card__name {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 1.18;
+  color: $--second-text-color;
+  margin-bottom: 16px;
+}
+
+.card__wraper {
+  text-align: center;
+  padding: 30px 0;
+
+}
+
+.soc {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: $--wighte-text-color;
+}
+
+.soc__item {
+  width: 44px;
+  height: 44px;
+}
+
+.soc__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: $--icon-primery-color;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $--wighte-text-color;
+    background-color: $--ico-background-color;
+
+  }
+}
+
+.soc__icon {
+  fill: currentColor;
+}
