@@ -153,8 +153,10 @@
   color: $--second-text-color;
 
   font-weight: 500;
-  line-height: 1.14;
+  /* line-height: 1.14; */
   letter-spacing: 0.02em;
+  font-size: 12px;
+   line-height: 1.17;
   @include transition(color);
 
   &:hover,

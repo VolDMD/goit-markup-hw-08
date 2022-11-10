@@ -3,6 +3,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    /* padding-bottom: 94px; */
     
     @media screen and(min-width:480px) {
       width: 480px;
@@ -17,3 +18,45 @@
       
 
   }
+  .container__activity {
+    width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0 auto;
+      padding-bottom: 94px;
+      
+      @media screen and(min-width:480px) {
+        display: none;
+        width: 480px;
+        }
+      @media screen and(min-width:768px) {
+        display: none;
+        width: 768px;
+        }
+      @media screen and(min-width:1200px) {
+        display: none;
+        width: 1200px;
+        }
+    
+    }
+    .container__hero {
+      width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        padding-bottom: 94px;
+        
+        @media screen and(min-width:480px) {
+          display: none;
+          width: 480px;
+          }
+        @media screen and(min-width:1080px) {
+          display: none;
+          width: 480px;
+          }
+        @media screen and(min-width:1200px) {
+          display: none;
+          width: 1200px;
+          }
+      
+      }

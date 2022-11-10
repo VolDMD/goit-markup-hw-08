@@ -15,12 +15,12 @@
   }
   
   .title {
-    margin-bottom: 50px;
+    
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.18;
   }
   .pictures {
     display: flex;
@@ -60,10 +60,10 @@
   }
  .swiper-section{
   display: none;
-  @media screen and(max-width:767px) {
+  /* @media screen and(max-width:767px) {
     display: block;
     
-  }
+  } */
  }
  .swiper-pic{
   width: 100%;
