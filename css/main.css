@@ -692,9 +692,12 @@ body {
   color: #ffffff;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* @media screen and(min-width:1080px) {
-  font-size: 26px;
-  line-height:calc(60/26); */
+}
+@media screen and (min-width: 1080px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.3636363636;
+  }
 }
 
 .hero_button {
@@ -818,6 +821,13 @@ body {
   font-weight: 700;
   font-size: 28px;
   line-height: 1.18;
+}
+@media screen and (min-width: 1080px) {
+  .title {
+    font-size: 36px;
+    line-height: 1.1666666667;
+    margin-bottom: 50px;
+  }
 }
 
 .pictures {
